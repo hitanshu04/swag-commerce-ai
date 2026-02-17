@@ -7,14 +7,19 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Connect to Database
+// 1. Connect to Database
 connectDB();
 
-// Register Routes
+// 2. Register Business Routes
 app.use('/api/products', require('./src/routes/productRoutes'));
 app.use('/api/coupons', require('./src/routes/couponRoutes'));
 app.use('/api/ai', require('./src/routes/aiRoutes'));
-app.use('/api/orders', require('./src/routes/orderRoutes')); // NEW EMAIL LOGIC
+app.use('/api/orders', require('./src/routes/orderRoutes'));
 
-const PORT = 5000;
+// 3. Admin Reset Route (Crucial for Deployment Evaluation)
+app.use('/api/admin', require('./src/routes/adminRoutes'));
+
+// 4. Start Server
+// Note: process.env.PORT is required for live deployment environments
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🔥 Aegis Backend Live on Port ${PORT}`));
