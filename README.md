@@ -1,10 +1,16 @@
 # 🚀 Swag Commerce & Analytics System
 
 A full-stack e-commerce platform designed for bulk merchandise procurement, featuring a real-time inventory locking mechanism, a dynamic coupon engine, and a Retrieval-Augmented Generation (RAG) AI Assistant for business analytics.
+<img width="1919" height="869" alt="Screenshot 2026-02-17 185836" src="https://github.com/user-attachments/assets/f3c75d50-f1c7-435a-87da-6db4f7532a94" />
+
 
 ## 🔗 Live Links
-- **Live Demo:** [Insert Your Codespaces/Vercel Link Here]
-- **Demo Video:** [Insert Your Loom Video Link Here]
+- **Live Demo:** https://swag-commerce-ai.vercel.app/
+- **Demo Video:** 
+
+https://github.com/user-attachments/assets/585faec6-62bf-48e3-a291-5277218589b9
+
+
 
 ## 🛠️ Tech Stack
 - **Frontend:** Next.js 14 (App Router), Tailwind CSS, Framer Motion, Lucide React
@@ -33,7 +39,7 @@ To ensure the "Admin AI Copilot" provides accurate, real-time answers (and handl
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/swag-commerce-ai.git](https://github.com/YOUR_USERNAME/swag-commerce-ai.git)
+    git clone https://github.com/hitanshu04/swag-commerce-ai.git
     cd swag-commerce-ai
     ```
 
