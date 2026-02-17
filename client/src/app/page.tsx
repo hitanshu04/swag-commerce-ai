@@ -7,7 +7,7 @@ import { ShoppingCart, LayoutDashboard, Package, Send, Sparkles, X, CheckCircle,
 import { motion } from "framer-motion";
 import html2canvas from 'html2canvas';
 
-const API_BASE = "https://supreme-space-giggle-v6vw5gq4qwp5hpwg7-5000.app.github.dev";
+const API_BASE = "https://aegis-backend-2dwz.onrender.com";
 
 // --- COMPONENTS ---
 const ProductModal = ({ product, isOpen, onClose, onAdd }: any) => {
